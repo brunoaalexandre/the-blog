@@ -2,25 +2,17 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --black: "#000000";
-    --gray: "#BBBBBB";
-    --white: "#FFFFFF";
+    --black: #000000;
+    --gray: #BBBBBB;
+    --white: #FFFFFF;
 
-    --green: "#4FFF4B";
+    --green: #4FFF4B;
 
-    --purple-100: "#FBF6FF";
-    --purple-90: "#F2E7FA"
-    --purple-50: "#9E6DC2";
-    --purple-30: "#290742";
-    --purple-10: "#170027";
-
-    --purple-gradient: gradient(
-        104.9deg,
-        rgba(239, 35, 243, 0.7) -2.03%,
-        rgba(195, 38, 228, 0.7) 27.04%,
-        rgba(139, 42, 209, 0.7) 67.97%,
-        rgba(92, 44, 193, 0.7) 107.39%
-        );
+    --purple-100: #FBF6FF;
+    --purple-90: #F2E7FA;
+    --purple-50: #9E6DC2;
+    --purple-30: #290742;
+    --purple-10: #170027;
   }
 
   * {
@@ -40,6 +32,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    background: var(--purple-100);
     -webkit-font-smoothing: antialiased;
   }
 
@@ -53,6 +46,14 @@ export const GlobalStyle = createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style-type: none;
   }
 
   [disabled] {
