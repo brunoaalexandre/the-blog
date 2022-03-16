@@ -15,6 +15,10 @@ That's all, folks. ❤
   - <a href="https://github.com/styled-components/styled-components">Styled-Components</a>
   - <a href="https://github.com/vitejs/vite">ViteJS</a>
 
+# What to improve?
+## The application has some improvements to be made, among them:
+- Responsivity
+
 # How to install
 
 ### Clone the repository
