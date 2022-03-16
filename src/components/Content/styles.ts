@@ -88,3 +88,11 @@ export const RightContent = styled.div`
     }
   }
 `;
+
+export const PostContainer = styled.div`
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1.8125rem;
+  padding-bottom: 2rem;
+`;
